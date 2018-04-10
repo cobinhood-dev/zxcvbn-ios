@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "zxcvbn-ios"
-  s.version       = "1.0.4"
+  s.version       = "1.0.5"
   s.summary       = "A realistic password strength estimator."
   s.description   = <<-DESC
                     An obj-c port of zxcvbn, a password strength estimation library,
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.homepage      = "https://github.com/dropbox/zxcvbn-ios"
   s.screenshots   = "https://raw.githubusercontent.com/dropbox/zxcvbn-ios/master/zxcvbn-example.png"
   s.license       = "MIT"
-  s.author        = { "Leah Culver" => "leah@dropbox.com" }
+  s.author        = { "Cobinhood-dev" => "dev-app@cobinhood.com" }
   s.platform      = :ios, "7.0"
-  s.source        = { :git => "https://github.com/dropbox/zxcvbn-ios.git", :tag => "v1.0.4"}
+  s.source        = { :git => "https://github.com/cobinhood-dev/zxcvbn-ios.git", :tag => "v1.0.5"}
   s.source_files  = "Zxcvbn/*.{h,m}"
   s.exclude_files = "Zxcvbn/Zxcvbn.h"
   s.resources     = "Zxcvbn/generated/*.json"
