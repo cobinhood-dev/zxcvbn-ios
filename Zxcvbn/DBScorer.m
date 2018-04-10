@@ -362,12 +362,13 @@ static int kNumDays = 31;
 
 - (NSString *)displayTime:(float)seconds
 {
-    int minute = 60;
-    int hour = minute * 60;
-    int day = hour * 24;
-    int month = day * 31;
-    int year = month * 12;
-    int century = year * 100;
+    NSInteger minute = 60;
+    NSInteger hour = minute * 60;
+    NSInteger day = hour * 24;
+    NSInteger month = day * 31;
+    NSInteger year = month * 12;
+    NSInteger century = year * 100;
+	
     if (seconds < minute)
         return @"instant";
     if (seconds < hour)
